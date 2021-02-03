@@ -46,6 +46,20 @@ header{
 }
 /*/section_two*/
 /*/main*/
+/*footer*/
+footer{
+  color: white;
+}
+/*upper_footer*/
+footer{
+  background-color: rgb(45, 63, 80);
+}
+.copyright{
+  color: white;
+  background-color: rgb(26, 37, 47);
+}
+/*/upper_footer*/
+/*/footer*/
 /*responsiveness*/
 /*xs_devices*/
 @media screen and (max-width:767px) {
