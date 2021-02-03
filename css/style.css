@@ -7,4 +7,78 @@
   color: white;
 }
 /*/nav*/
+/*hero*/
+.hero{
+  background-color: rgb(41, 187, 156);
+}
+.hero_box{
+  color: white;
+}
+/*/hero*/
 /*/header*/
+/*responsiveness*/
+/*xs_devices*/
+@media screen and (max-width:767px) {
+  /*header*/
+  /*nav_bar*/
+  .nav_left,.nav_right{
+    padding: 10px;
+  }
+  /*/nav_bar*/
+  /*hero*/
+  .hero_box{
+    padding: 20px;
+  }
+  /*/hero*/
+  /*/header*/
+}
+/*/xs_devices*/
+/*sm_devices*/
+@media screen and (min-width:768px) and (max-width:991px) {
+  /*header*/
+  /*nav_bar*/
+  .nav_left,.nav_right{
+    padding: 15px;
+  }
+  /*/nav_bar*/
+  /*hero*/
+  .hero_box{
+    padding: 40px;
+  }
+  /*/hero*/
+  /*/header*/
+}
+/*/sm_devices*/
+/*md_devices*/
+@media screen and (min-width:992px) and (max-width:1199px) {
+  /*header*/
+  /*nav_bar*/
+  .nav_left,.nav_right{
+    padding: 20px;
+  }
+  /*/nav_bar*/
+  /*hero*/
+  .hero_box{
+    padding: 60px;
+  }
+  /*/hero*/
+  /*/header*/
+}
+/*/md_devices*/
+/*lg_devices*/
+@media screen and (min-width:1200px) {
+  /*header*/
+  /*nav_bar*/
+  .nav_left,.nav_right{
+    padding: 25px;
+  }
+  /*/nav_bar*/
+  /*hero*/
+  .hero_box{
+    padding: 80px;
+  }
+  /*/hero*/
+  /*/header*/
+}
+/*lg_devices*/
+/*/responsiveness*/
