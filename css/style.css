@@ -16,6 +16,29 @@
 }
 /*/hero*/
 /*/header*/
+/*main*/
+/*box_one*/
+.main_box{
+  background-color: rgb(184, 76, 100);
+  border-radius: 10px;
+  margin: 10px 0;
+  width: 300px;
+  display: inline-block;
+  text-align: center;
+}
+.image_box{
+  height: 150px;
+  width: 150px;
+  background-color: rgb(75, 178, 156);
+  border-radius: 50%;
+  display: inline-block;
+  text-align: center;
+}
+/*/box_one*/
+/*box_two*/
+
+/*/box_two*/
+/*/main*/
 /*responsiveness*/
 /*xs_devices*/
 @media screen and (max-width:767px) {
@@ -31,6 +54,13 @@
   }
   /*/hero*/
   /*/header*/
+  /*main*/
+  /*main_title*/
+  .main_title{
+    padding: 20px 0 0 0;
+  }
+  /*/main_title*/
+  /*/main*/
 }
 /*/xs_devices*/
 /*sm_devices*/
@@ -47,6 +77,13 @@
   }
   /*/hero*/
   /*/header*/
+  /*main*/
+  /*main_title*/
+  .main_title{
+    padding: 20px 0 0 0;
+  }
+  /*/main_title*/
+  /*/main*/
 }
 /*/sm_devices*/
 /*md_devices*/
@@ -63,6 +100,13 @@
   }
   /*/hero*/
   /*/header*/
+  /*main*/
+  /*main_title*/
+  .main_title{
+    padding: 20px 0 0 0;
+  }
+  /*/main_title*/
+  /*/main*/
 }
 /*/md_devices*/
 /*lg_devices*/
@@ -79,6 +123,13 @@
   }
   /*/hero*/
   /*/header*/
+  /*main*/
+  /*main_title*/
+  .main_title{
+    padding: 20px 0 0 0;
+  }
+  /*/main_title*/
+  /*/main*/
 }
 /*lg_devices*/
 /*/responsiveness*/
