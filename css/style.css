@@ -17,27 +17,31 @@
 /*/hero*/
 /*/header*/
 /*main*/
-/*box_one*/
+/*generals*/
 .main_box{
-  background-color: rgb(184, 76, 100);
-  border-radius: 10px;
   margin: 10px 0;
-  width: 300px;
-  display: inline-block;
-  text-align: center;
 }
-.image_box{
-  height: 150px;
-  width: 150px;
-  background-color: rgb(75, 178, 156);
-  border-radius: 50%;
-  display: inline-block;
-  text-align: center;
+/*/generals*/
+/*box_one*/
+.one{
+  background-color: rgb(184, 76, 100);
 }
 /*/box_one*/
 /*box_two*/
-
+.two{
+  background-color: rgb(41, 164, 181);
+}
 /*/box_two*/
+/*box_three*/
+.three{
+  background-color: rgb(20, 15, 15);
+}
+/*/box_three*/
+/*box_four*/
+.four{
+  background-color: rgb(37, 132, 191);
+}
+/*/box_four*/
 /*/main*/
 /*responsiveness*/
 /*xs_devices*/
