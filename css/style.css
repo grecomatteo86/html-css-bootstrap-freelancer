@@ -233,14 +233,46 @@ footer li{
 @media screen and (min-width:992px) and (max-width:1199px) {
   /*header*/
   /*nav_bar*/
+  .fixed{
+    height: 120px;
+    position: fixed;
+    width: 100%;
+  }
+  .hero_box{
+    padding: 200px 70px 70px 70px;
+  }
+  .format_title{
+    font-size: 65px;
+    font-weight: 700;
+    margin-top: 50px;
+  }
+  .format_par{
+    font-size: 30px;
+  }
+  .divider{
+    margin: 25px 0;
+    display: inline-block;
+  }
+  .star{
+    font-size: 30px;
+    padding: 15px;
+  }
   /*/nav_bar*/
   /*hero*/
   .format{
-    font-size: 65px;
+    font-size: 85px;
   }
   /*/hero*/
   /*/header*/
   /*main*/
+  .format_h2{
+    margin-top: 60px;
+    font-weight: 700;
+    font-size: 60px;
+  }
+  .section_one .line{
+    background-color: rgb(45, 63, 80);;
+  }
   /*/main*/
 }
 /*/md_devices*/
@@ -248,11 +280,47 @@ footer li{
 @media screen and (min-width:1200px) {
   /*header*/
   /*nav_bar*/
+  .fixed{
+    height: 120px;
+    position: fixed;
+    width: 100%;
+  }
+  .hero_box{
+    padding: 200px 70px 70px 70px;
+  }
+  .format_title{
+    font-size: 65px;
+    font-weight: 700;
+    margin-top: 50px;
+  }
+  .format_par{
+    font-size: 30px;
+  }
+  .divider{
+    margin: 25px 0;
+    display: inline-block;
+  }
+  .star{
+    font-size: 30px;
+    padding: 15px;
+  }
   /*/nav_bar*/
   /*hero*/
+  .format{
+    font-size: 85px;
+  }
   /*/hero*/
   /*/header*/
   /*main*/
+  .format_h2{
+    margin-top: 60px;
+    font-weight: 700;
+    font-size: 60px;
+  }
+  .section_one .line{
+    background-color: rgb(45, 63, 80);;
+  }
+  /*/main*/
   /*/main*/
 }
 /*lg_devices*/
