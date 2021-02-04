@@ -55,7 +55,31 @@ img{
 /*section_one*/
 /*generals*/
 .main_box{
-  margin: 10px 0;;
+  margin: 10px 0;
+  position: relative;
+}
+.overlay{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right:0;
+  left:0;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 20px;
+  display: none;
+}
+.main_box:hover .overlay{
+  display: block;
+}
+.plus{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 60px;
+}
+.section_one{
+  margin-bottom: 40px;
 }
 .section_one img{
   border-radius: 20px;
