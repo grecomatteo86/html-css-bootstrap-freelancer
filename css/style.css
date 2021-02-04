@@ -151,6 +151,17 @@ footer li{
   margin: 0 10px;
   text-align: center;
 }
+.social{
+  width: 35px;
+  height: 35px;
+  border: 1px solid white;
+  border-radius: 50%;
+  display: inline-block;
+}
+footer i{
+  color: white;
+  margin-top: 10px;
+}
 /*/footer*/
 
 /*responsiveness*/
