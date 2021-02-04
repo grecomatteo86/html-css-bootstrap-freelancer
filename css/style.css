@@ -26,6 +26,9 @@ body{
 /*/text-typo*/
 /*header*/
 /*nav*/
+.fixed{
+  z-index: 3;
+}
 .nav_title_left,.link{
   color: white;
 }
