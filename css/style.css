@@ -1,20 +1,49 @@
-/*header*/
-header{
+body{
+  font-family: 'Montserrat', sans-serif;
   color: white;
 }
-/*nav*/
-.nav_bar{
+/*colors*/
+.color_primary{
   background-color: rgb(45, 62, 79);
 }
-/*/nav*/
-/*hero*/
-.hero{
+.color_primary_400{
+  background-color: rgb(26, 37, 47);
+}
+.color_secondary{
   background-color: rgb(41, 187, 156);
 }
+/*/colors*/
+/*text-center*/
+.txt_cnt{
+  text-align: center;
+}
+/*/text-center*/
+/*header*/
+/*nav*/
+/*/nav*/
+/*hero*/
 .hero_box{
   max-width: 700px;
   margin: auto;
-  background-color: red;
+}
+.box_image{
+  width: 200px;
+  height: 200px;
+  margin: auto;
+}
+.box_image>img{
+  width: 100%;
+  height: 100%;
+}
+.line{
+  width: 50px;
+  height: 3px;
+  background-color: white;
+  border-radius: 5px;
+  display: inline-block;
+}
+.vert_align{
+  vertical-align: middle;
 }
 /*/hero*/
 /*/header*/
@@ -45,20 +74,16 @@ header{
 }
 /*/section_one*/
 /*section_two_about*/
-.section_two{
-  background-color: rgb(41, 187, 156);
-  color: white;
-}
 .my_container{
   max-width: 700px;
   margin: auto;
   background-color: red;
 }
 .about{
-  text-align: center;
+  /* text-align: center; */
 }
 .cta{
-  text-align: center;
+  /* text-align: center; */
 }
 /*/section_two_about*/
 /*section_three_contact_me*/
@@ -68,23 +93,12 @@ header{
   background-color: red;
 }
 h2{
-  text-align: center;
+  /* text-align: center; */
 }
 /*/section_three_contact_me*/
 /*/main*/
 /*footer*/
-footer{
-  color: white;
-}
 /*upper_footer*/
-footer{
-  background-color: rgb(45, 63, 80);
-}
-.copyright{
-  color: white;
-  background-color: rgb(26, 37, 47);
-  text-align: center;
-}
 /*/upper_footer*/
 /*/footer*/
 /*responsiveness*/
