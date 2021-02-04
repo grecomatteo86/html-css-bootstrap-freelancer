@@ -44,7 +44,7 @@ header{
   background-color: rgb(203, 178, 164);
 }
 /*/section_one*/
-/*section_two*/
+/*section_two_about*/
 .section_two{
   background-color: rgb(41, 187, 156);
   color: white;
@@ -60,7 +60,7 @@ header{
 .button{
   text-align: center;
 }
-/*/section_two*/
+/*/section_two_about*/
 /*section_three_contacts*/
 .contact_box{
   max-width: 700px;
