@@ -57,11 +57,11 @@ header{
 .about{
   text-align: center;
 }
-.button{
+.cta{
   text-align: center;
 }
 /*/section_two_about*/
-/*section_three_contacts*/
+/*section_three_contact_me*/
 .contact_box{
   max-width: 700px;
   margin: auto;
@@ -70,7 +70,7 @@ header{
 h2{
   text-align: center;
 }
-/*/section_three_contacts*/
+/*/section_three_contact_me*/
 /*/main*/
 /*footer*/
 footer{
