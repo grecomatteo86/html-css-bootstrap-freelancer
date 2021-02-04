@@ -114,8 +114,19 @@ form input{
 /*/section_three_contact_me*/
 /*/main*/
 /*footer*/
-/*upper_footer*/
-/*/upper_footer*/
+footer{
+  padding:50px;
+}
+footer .main{
+  font-size: 25px;
+  font-weight: 700;
+}
+footer li{
+  list-style: none;
+  display: inline-block;
+  margin: 0 10px;
+  text-align: center;
+}
 /*/footer*/
 
 /*responsiveness*/
@@ -166,8 +177,12 @@ form input{
     height: 250px;
   }
   /*/box*/
-
   /*/main*/
+  /*footer*/
+  .around{
+    margin: 50px 0;
+  }
+  /*/footer*/
 }
 /*/xs_devices*/
 /*sm_devices*/
