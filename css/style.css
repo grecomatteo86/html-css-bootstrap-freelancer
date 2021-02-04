@@ -26,7 +26,9 @@ body{
 /*/text-typo*/
 /*header*/
 /*nav*/
-
+.nav_title_left,.link{
+  color: white;
+}
 /*/nav*/
 /*hero*/
 .hero_box{
@@ -168,6 +170,11 @@ footer i{
 /*xs_devices*/
 @media screen and (max-width:767px) {
   /*nav*/
+  .nav_title_left,.link{
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 10px;
+  }
   .fixed{
     height: 75px;
     position: fixed;
@@ -224,6 +231,11 @@ footer i{
 @media screen and (min-width:768px) and (max-width:991px) {
   /*header*/
   /*nav_bar*/
+  .nav_title_left,.link{
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 20px;
+  }
   .fixed{
     height: 85px;
     position: fixed;
@@ -268,6 +280,11 @@ footer i{
 @media screen and (min-width:992px) and (max-width:1199px) {
   /*header*/
   /*nav_bar*/
+  .nav_title_left,.link{
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 30px;
+  }
   .fixed{
     height: 120px;
     position: fixed;
@@ -315,6 +332,11 @@ footer i{
 @media screen and (min-width:1200px) {
   /*header*/
   /*nav_bar*/
+  .nav_title_left,.link{
+    font-size: 30px;
+    font-weight: 700;
+    margin-top: 30px;
+  }
   .fixed{
     height: 120px;
     position: fixed;
